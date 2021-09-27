@@ -13,6 +13,6 @@
   `face_recognition.py`
   
 ### To Note 
- -running `face update.py` creates a .pth file on your storage which is used to store the embeddings  
+ -running `face_update.py` creates a .pth file on your storage which is used to store the embeddings  
  -remember to change all path links  
  -change cv2.Videocapture to 0 if using webcam and 1 if using usb camera  
