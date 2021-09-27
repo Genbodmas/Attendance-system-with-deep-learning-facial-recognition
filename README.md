@@ -2,15 +2,15 @@
 `Run app.py` to start the program
 ## Face detection and capturing
   face detection:
-  `face detect.py`  
+  `face_detect.py`  
   face capturing:
-  `face capturing.py`
+  `face_capturing.py`
   
 ## Creating facelist and recognition
   facelist:
-  `face update.py`  
+  `face_update.py`  
   recognition:
-  `face recognition.py`
+  `face_recognition.py`
   
 ### To Note 
  -running `face update.py` creates a .pth file on your storage which is used to store the embeddings  
