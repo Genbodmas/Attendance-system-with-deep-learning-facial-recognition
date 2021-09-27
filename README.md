@@ -16,3 +16,5 @@
  -running `face_update.py` creates a .pth file on your storage which is used to store the embeddings  
  -remember to change all path links  
  -change cv2.Videocapture to 0 if using webcam and 1 if using usb camera  
+
+![ScreenShot](/screenshots/Screenshot(311).png)
