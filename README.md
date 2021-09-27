@@ -1,5 +1,5 @@
 # Attendance-system-with-deep-learning-facial-recognition
-
+`Run app.py` to start the program
 ## Face detection and capturing
   face detection:
   `face detect.py`  
