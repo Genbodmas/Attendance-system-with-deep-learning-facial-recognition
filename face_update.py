@@ -6,13 +6,12 @@ import os
 from PIL import Image
 import numpy as np
 
+
 def update_facelist():
     IMG_PATH = 'C:/Users/Gen Bodmas/PycharmProjects/CIFAR10/test_images'
     DATA_PATH = 'C:/Users/Gen Bodmas/PycharmProjects/CIFAR10'
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    print(device)
-
 
     def trans(img):
         transform = transforms.Compose([
@@ -20,7 +19,6 @@ def update_facelist():
             fixed_image_standardization
         ])
         return transform(img)
-
 
     model = InceptionResnetV1(
         classify=False,
@@ -58,4 +56,3 @@ def update_facelist():
     print('Update Completed! There are {0} people in FaceLists'.format(names.shape[0]))
 
     print(names)
-
