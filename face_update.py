@@ -11,8 +11,6 @@ def update_facelist():
     DATA_PATH = 'C:/Users/Gen Bodmas/PycharmProjects/CIFAR10'
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    print(device)
-
 
     def trans(img):
         transform = transforms.Compose([
